@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-header">
+        <div class="frame">
+            <p>Join our mailing list and get 10% off your first purchase.</p>
+        </div>
+        <div class="container">
+            <div class="subheader">
+                <div class="header-logo">
+                    <img src="./images/header-logo.png" alt="Header logo">
+                </div>
+                <span class="bars"><i class="fa-solid fa-bars"></i></span>
+                <div class="custom-add">
+                    <div class="menu-header">
+                        <h3><span class="xmark"><i class="fa-solid fa-xmark"></i></span>Menu</h3>
+                    </div>
+                    <nav class="navigation">
+                        <ul class="nav-wrapper">
+                            <li class="first-layer">
+                                <div class="item-header">
+                                    <a href="#">Integrations</a>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </div>
+                                <ul class="nav-wrapper navigation-second">
+                                    <li class="second-layer">
+                                        <div class="s-item-header">
+                                            <a href="#">1 1</a>
+                                        </div>
+                                    </li>
+                                    <li class="second-layer">
+                                        <div class="item-header">
+                                            <a href="#">1 2</a>
+                                        </div>
+                                    </li>
+                                    <li class="second-layer">
+                                        <div class="s-item-header">
+                                            <a href="#">1 3</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="first-layer">
+                                <div class="item-header">
+                                    <a href="#">Installation</a>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </div>
+
+                                <ul class="nav-wrapper navigation-second">
+                                    <li class="second-layer">
+                                        <div class="item-header">
+                                            <a href="#">2 1</a>
+                                        </div>
+                                    </li>
+                                    <li class="second-layer">
+                                        <div class="item-header">
+                                            <a href="#">2 2</a>
+                                        </div>
+                                    </li>
+                                    <li class="second-layer">
+                                        <div class="item-header">
+                                            <a href="#">2 3</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="first-layer">
+                                <div class="item-header">
+                                    <a href="#">Help & Support</a>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="Options">
+                        <div class="shop">
+                            <a class="Shop-now" href="#">Shop Now</a>
+                        </div>
+                        <ul class="menu-icons">
+                            <li>
+                                <div class="menu-icons-li">
+                                    <a class="search" href="#">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                        <span>Search</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="menu-icons-li">     
+                                    <a class=" user" href="#">
+                                        <i class="fa-solid fa-circle-user"></i>
+                                        <span>Log In</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="menu-icons-li">
+                                    <a class=" cart" href="#">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span>Cart</span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="mainbanner">
+            <div class="container">
+                <div class="banner">
+                    <div class="logo">
+                        <img id="image" src="./images/logo.png" alt="Logo">
+                    </div>
+                    <div class="header">
+                        <h1 class="heading">Get your Favourite Products with fast, free delivery through Buy with Prime
+                        </h1>
+                        <p class="parah">Prime members can now get our products with fast, free delivery, and free
+                            returns
+                            on eligible items through buy with prime.</p>
+                    </div>
+                    <a class="link" href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="Main">
+            <div class="container">
+                <div class="quantity">
+                    <div class="filters">
+                        <label for="filters">Filters:</label>
+                        <select id="filters" name="filters">
+                            <option value="filter1">More Filters</option>
+                            <option value="filter2">Filter 2</option>
+                            <option value="filter3">Filter 3</option>
+                            <option value="filter4">Filter 4</option>
+                            <option value="filter5">Filter 5</option>
+                            <option value="filter6">Filter 6</option>
+                        </select>
+                    </div>
+                    <p id="amount">41 Products</p>
+                </div>
+                <div class="Items">
+                    <div class="products">
+                        <a class="substance" href="#">
+                            <div class="images">
+                                <img src="./images/logo.png" alt="Logo">
+                            </div>
+                            <img src="./images/Conversion_kit.png">
+                        </a>
+                        <div class="text-container">
+                            <h5 class="name">Konnected Alarm Panel Conversion Kit</h5>
+                            <p class="price">from <b>$99</b></p>
+                        </div>
+                    </div>
+                    <div class="products">
+
+                        <a class="substance" href="#">
+                            <div class="images">
+                                <img src="./images/logo.png" alt="Logo">
+                            </div>
+                            <img src="./images/Zone_conversion_kit.png">
+                        </a>
+                        <div class="text-container">
+                            <h5 class="name">Konnected Alarm Panel Pro-12 Zone Conversion Kit</h5>
+                            <p class="price">from <b>$229</b></p>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <a class="substance" href="#">
+                            <div class="images">
+                                <img src="./images/logo.png" alt="Logo">
+                            </div>
+                            <img src="./images/door_opener.png">
+                        </a>
+                        <div class="text-container">
+                            <h5 class="name">Smart Garage Door Opener</h5>
+                            <p class="price">from <b>$89</b></p>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <a class="substance" href="#">
+                            <div class="images">
+                                <img src="./images/logo.png" alt="Logo">
+                            </div>
+                            <img src="./images/backup_battery.png">
+                        </a>
+                        <div class="text-container">
+                            <h5 class="name">Backup Battery</h5>
+                            <p class="price">from <b>$39</b></p>
+                        </div>
+                    </div>
+
+                    <div class="products">
+
+                        <a class="substance" href="#">
+                            <div class="images">
+                                <img src="./images/logo.png" alt="Logo">
+                            </div>
+                            <img src="./images/Interface_kit.png">
+                        </a>
+                        <div class="text-container">
+                            <h5 class="name">Konnected Alarm Panel Interface Kit</h5>
+                            <p class="price">from <b>$189</b></p>
+                        </div>
+                    </div>
+
+                    <div class="products">
+
+                        <a class="substance" href="#">
+                            <div class="images">
+                                <img src="./images/logo.png" alt="Logo">
+                            </div>
+                            <img src="./images/Zone-interface_kit.png">
+                        </a>
+                        <div class="text-container">
+                            <h5 class="name">Konnected Alarm Panel Pro-12 Zone Interface Kit</h5>
+                            <p class="price">from <b>$289</b></p>
+                        </div>
+                    </div>
+
+                    <div class="products">
+
+                        <a class="substance" href="#">
+                            <div class="images">
+                                <img src="./images/logo.png" alt="Logo">
+                            </div>
+                            <img src="./images/Panel_pro_board.png">
+                        </a>
+                        <div class="text-container">
+                            <h5 class="name">Konnected Alarm Panel Pro (Board Only)</h5>
+                            <p class="price">from <b>$219</b></p>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <a class="substance" href="#">
+                            <div class="images">
+                                <img src="./images/logo.png" alt="Logo">
+                            </div>
+                            <img src="./images/siren_board.png">
+                        </a>
+                        <div class="text-container">
+                            <h5 class="name"> 6-Zone Konnected Alarm Panel With Siren Output (Board Only)</h5>
+                            <p class="price">from <b>$89</b></p>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <a class="substance" href="#">
+                            <div class="images">
+                                <img src="./images/logo.png" alt="Logo">
+                            </div>
+                            <img src="./images/Add_on_board.png">
+                        </a>
+                        <div class="text-container">
+                            <h5 class="name">6-Zone Konnected Alarm Panel Add-on(Board Only)</h5>
+                            <p class="price">from <b>$89</b></p>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <a class="substance" href="#">
+                            <div class="images">
+                                <img src="./images/logo.png" alt="Logo">
+                            </div>
+                            <img src="./images/Interface_module.png">
+                        </a>
+                        <div class="text-container">
+                            <h5 class="name">Konnected Alarm Panel Interface Module</h5>
+                            <p class="price">from <b>$49</b></p>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <a class="substance" href="#">
+                            <div class="images">
+                                <img src="./images/logo.png" alt="Logo">
+                            </div>
+                            <img src="./images/power_converter.png">
+                        </a>
+                        <div class="text-container">
+                            <h5 class="name">12V To 5V USB Power Converter</h5>
+                            <p class="price">from <b>$15</b></p>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <a class="substance" href="#">
+                            <div class="images">
+                                <img src="./images/logo.png" alt="Logo">
+                            </div>
+                            <img src="./images/Enclosure.png">
+                        </a>
+                        <div class="text-container">
+                            <h5 class="name">Enclosure For Konnected Alarm Panel(s) By MBmodules</h5>
+                            <p class="price">from <b>$36.35</b></p>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <a class="substance" href="#">
+                            <div class="images">
+                                <img src="./images/logo.png" alt="Logo">
+                            </div>
+                            <img src="./images/frame.png">
+                        </a>
+                        <div class="text-container">
+                            <h5 class="name">3D Printed Tablet Frame By Jason Thomas</h5>
+                            <p class="price">from <b>$31</b></p>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <a class="substance" href="#">
+                            <div class="images">
+                                <img src="./images/logo.png" alt="Logo">
+                            </div>
+                            <img src="./images/two_tone_siren.png">
+                        </a>
+                        <div class="text-container">
+                            <h5 class="name">Honeywell WAVE2 TWO-TONE Siren</h5>
+                            <p class="price">from <b>$14</b></p>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <a class="substance" href="#">
+                            <div class="images">
+                                <img src="./images/logo.png" alt="Logo">
+                            </div>
+                            <img src="./images/wired_motion_sensor.png">
+                        </a>
+                        <div class="text-container">
+                            <h5 class="name">Honeywell Wired Passive Infrared (PIR) Motion Sensor[IS3035]</h5>
+                            <p class="price">from <b>$25</b></p>
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <a class="substance" href="#">
+                            <div class="images">
+                                <img src="./images/logo.png" alt="Logo">
+                            </div>
+                            <img src="./images/ceiling_motion_sensor.png">
+                        </a>
+                        <div class="text-container">
+                            <h5 class="name">360 Ceiling Surfce Mount Passive Infrared (PIR) Motion Sensor</h5>
+                            <p class="price">from <b>$19</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Frequently Asked Questions -->
+
+        <div class="main-container">
+            <div class="container">
+                <div class="faq">
+                    <div class="faq-name">
+                        <h1>Frequently Asked Questions</h1>
+                    </div>
+                    <div class="questions">
+                        <div class="section">
+                            <div class="label-icon">
+
+                                <button id="question1">What devices are compatible with Konnected's backup
+                                    Battery</button>
+
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="content" id="content1">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quam architecto
+                                    delectus
+                                    quibusdam sapiente ipsa repudiandae numquam et enim odio, atque omnis repellat
+                                    eligendi
+                                    praesentium aut natus voluptates doloremque vero.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="label-icon">
+
+                                <button id="question2">How can I check if my router or modem is compatible?
+                                </button>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="content" id="content2">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quam architecto
+                                    delectus
+                                    quibusdam sapiente ipsa repudiandae numquam et enim odio, atque omnis repellat
+                                    eligendi
+                                    praesentium aut natus voluptates doloremque vero.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="label-icon">
+
+                                <button id="question3">Can Konnected's backup battery also be used as portable phone
+                                    charger
+                                    or power bank?</button>
+
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="content" id="content3">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quam architecto
+                                    delectus
+                                    quibusdam sapiente ipsa repudiandae numquam et enim odio, atque omnis repellat
+                                    eligendi
+                                    praesentium aut natus voluptates doloremque vero.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="label-icon">
+
+                                <button id="question4">How does the auto-switching feature work?</button>
+
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="content" id="content4">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quam architecto
+                                    delectus
+                                    quibusdam sapiente ipsa repudiandae numquam et enim odio, atque omnis repellat
+                                    eligendi
+                                    praesentium aut natus voluptates doloremque vero.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="label-icon">
+
+                                <button id="question5">How Do I connect a Aeotec SmartThings hub or other 5V device
+                                    that's
+                                    not a USB connector?</button>
+
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="content" id="content5">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quam architecto
+                                    delectus
+                                    quibusdam sapiente ipsa repudiandae numquam et enim odio, atque omnis repellat
+                                    eligendi
+                                    praesentium aut natus voluptates doloremque vero.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="label-icon">
+
+                                <button id="question6">Is there a status charge indicator on the device?</button>
+
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="content" id="content6">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quam architecto
+                                    delectus
+                                    quibusdam sapiente ipsa repudiandae numquam et enim odio, atque omnis repellat
+                                    eligendi
+                                    praesentium aut natus voluptates doloremque vero.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="label-icon">
+
+                                <button id="question7">Can you double the batteries to extend the cutover
+                                    duration?</button>
+
+                                <i id="icon7" class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="content" id="content8">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quam architecto
+                                    delectus
+                                    quibusdam sapiente ipsa repudiandae numquam et enim odio, atque omnis repellat
+                                    eligendi
+                                    praesentium aut natus voluptates doloremque vero.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- REVIEW SECTION -->
+        <div class="review-section">
+            <div class="container-fluid">
+                <div class="head">
+                    <h3 class="review-head">What our Partners say</h3>
+                    <img class="stars" src="./images/stars.png" alt="review">
+                </div>
+                <div class="reviews">
+                    <div class="review1">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class=" review-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi doloribus
+                            nisi
+                            iste laboriosam veritatis omnis nobis tempora odit, ullam, similique eos quasi saepe
+                            architecto
+                            dolorum nostrum voluptatum delectus perspiciatis explicabo.</p>
+                        <h6 class=" review-h">James W.</h6>
+                    </div>
+                    <div class="review1">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class=" review-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi doloribus
+                            nisi
+                            iste laboriosam veritatis omnis nobis tempora odit, ullam, similique eos quasi saepe
+                            architecto
+                            dolorum nostrum voluptatum delectus perspiciatis explicabo.</p>
+                        <h6 class=" review-h">James W.</h6>
+                    </div>
+                    <div class="review1">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class=" review-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi doloribus
+                            nisi
+                            iste laboriosam veritatis omnis nobis tempora odit, ullam, similique eos quasi saepe
+                            architecto
+                            dolorum nostrum voluptatum delectus perspiciatis explicabo.</p>
+                        <h6 class=" review-h">James W.</h6>
+                    </div>
+                    <div class="review1">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class=" review-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi doloribus
+                            nisi
+                            iste laboriosam veritatis omnis nobis tempora odit, ullam, similique eos quasi saepe
+                            architecto
+                            dolorum nostrum voluptatum delectus perspiciatis explicabo.</p>
+                        <h6 class=" review-h">James W.</h6>
+                    </div>
+                    <div class="review1">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class=" review-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi doloribus
+                            nisi
+                            iste laboriosam veritatis omnis nobis tempora odit, ullam, similique eos quasi saepe
+                            architecto
+                            dolorum nostrum voluptatum delectus perspiciatis explicabo.</p>
+                        <h6 class=" review-h">James W.</h6>
+                    </div>
+                    <div class="review1">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class=" review-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi doloribus
+                            nisi
+                            iste laboriosam veritatis omnis nobis tempora odit, ullam, similique eos quasi saepe
+                            architecto
+                            dolorum nostrum voluptatum delectus perspiciatis explicabo.</p>
+                        <h6 class=" review-h">James W.</h6>
+                    </div>
+                    <div class="review1">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class=" review-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi doloribus
+                            nisi
+                            iste laboriosam veritatis omnis nobis tempora odit, ullam, similique eos quasi saepe
+                            architecto
+                            dolorum nostrum voluptatum delectus perspiciatis explicabo.</p>
+                        <h6 class=" review-h">James W.</h6>
+                    </div>
+                    <div class="review1">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class=" review-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi doloribus
+                            nisi
+                            iste laboriosam veritatis omnis nobis tempora odit, ullam, similique eos quasi saepe
+                            architecto
+                            dolorum nostrum voluptatum delectus perspiciatis explicabo.</p>
+                        <h6 class=" review-h">James W.</h6>
+                    </div>
+                    <div class="review1">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class=" review-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi doloribus
+                            nisi
+                            iste laboriosam veritatis omnis nobis tempora odit, ullam, similique eos quasi saepe
+                            architecto
+                            dolorum nostrum voluptatum delectus perspiciatis explicabo.</p>
+                        <h6 class=" review-h">James W.</h6>
+                    </div>
+                    <div class="review1">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class=" review-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi doloribus
+                            nisi
+                            iste laboriosam veritatis omnis nobis tempora odit, ullam, similique eos quasi saepe
+                            architecto
+                            dolorum nostrum voluptatum delectus perspiciatis explicabo.</p>
+                        <h6 class=" review-h">James W.</h6>
+                    </div>
+                    <div class="review1">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class=" review-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi doloribus
+                            nisi
+                            iste laboriosam veritatis omnis nobis tempora odit, ullam, similique eos quasi saepe
+                            architecto
+                            dolorum nostrum voluptatum delectus perspiciatis explicabo.</p>
+                        <h6 class=" review-h">James W.</h6>
+                    </div>
+                    <div class="review1">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class=" review-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sit
+                            mollitia
+                            excepturi veritatis architecto nulla. Voluptas harum deleniti quidem fugiat, sunt voluptates
+                            quaerat numquam reprehenderit, aliquid enim nam, magni eius?</p>
+                        <h6 class=" review-h">James W.</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Footer Section -->
+        <div class="main-footer">
+            <div class="container">
+                <div class="footer">
+                    <div class="rows">
+                        <a class="footer-logo" href="#">
+                            <img src="./images/footer-logo.png" alt="Footer Logo">
+                        </a>
+                    </div>
+                    <div class="Info">
+                        <div class="rows">
+                            <h5>Discover</h5>
+                            <ul>
+                                <li><a href="#">Getting Started</a></li>
+                                <li><a href="#">Shop Now</a></li>
+                                <li><a href="#">Where To Buy</a></li>
+                                <li><a href="#">Find an Installer</a></li>
+                            </ul>
+                        </div>
+                        <div class="rows">
+                            <h5>Info</h5>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">News & Updates</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Investors</a></li>
+                                <li><a href="#">Become A Partner</a></li>
+                            </ul>
+                        </div>
+                        <div class="rows">
+                            <h5>Help Center</h5>
+                            <ul>
+                                <li><a href="#">Smart Home Security</a></li>
+                                <li><a href="#">Installation</a></li>
+                                <li><a href="#">Help & Support</a></li>
+                                <li><a href="#">Developer API Documentation</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"
+        integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js"></script>
+
+
+
+</body>
+
+</html>
